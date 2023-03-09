@@ -24,7 +24,7 @@
 
         public float Square(float op1)
         {
-            throw new NotImplementedException();
+            return (float)Math.Pow(op1, 2);
         }
     }
 }
